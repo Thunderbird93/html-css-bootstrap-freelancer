@@ -1,0 +1,82 @@
+.debug{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+}
+
+.fa-star{
+    font-size: 2rem;
+}
+
+.fa-plus{
+    display: none;
+    position: absolute;
+    font-size: 5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+
+.line-star{
+    width: 150px;
+    height: 4px;
+}
+
+
+.ms-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.circle{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin: 5px;
+}
+
+.form-control{
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.jumbotron .image{
+    width: 225px;
+    margin: 0 auto;
+}
+
+.card:hover img{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.card:hover i{
+    display: block;
+}
+
+
+footer .circle:hover{
+    cursor: pointer;
+}
+
+.f-top{
+    background-color: #3A546D;
+}
+
+.jumbotron, .about, .ms-btn{
+    background-color: #1ABC9C;
+}
+
+nav, .f-bottom, .dark{
+    background-color: #2C3E50;
+}
+
+.light{
+    background-color: #FFFFFF;
+}
